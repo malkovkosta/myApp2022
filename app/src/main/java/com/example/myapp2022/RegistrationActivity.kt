@@ -42,10 +42,7 @@ class RegistrationActivity : AppCompatActivity() {
             val user = FirebaseAuth.getInstance().currentUser
             // ...
         } else {
-            // Sign in failed. If response is null the user canceled the
-            // sign-in flow using the back button. Otherwise check
-            // response.getError().getErrorCode() and handle the error.
-            // ...
+
         }
     }
 
