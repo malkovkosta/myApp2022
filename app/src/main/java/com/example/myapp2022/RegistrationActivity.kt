@@ -48,9 +48,5 @@ class RegistrationActivity : AppCompatActivity() {
 
 
 
-    override fun onStop() {
-        super.onStop()
-        Log.d("testlogs", "onStop RegistrationActivity")
-        // сохранить данные из полей для ввода
-    }
+
 }
